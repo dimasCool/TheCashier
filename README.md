@@ -1,4 +1,4 @@
-# TheCashier
+TheCahsier
 
 Tugas Modul 2
 
@@ -38,7 +38,7 @@ public double getSubTotal()
     subtotal = price * quantity;
     return subtotal;
 }  
-// data ini berfungsi untuk mendeklarisakan method item yang akan digunakan
+// berfungsi untuk mendeklarisakan method item yang akan digunakan
 
  public partial class MainWindow : Window
 
@@ -64,7 +64,7 @@ private void AddButton_Click(object sender, RoutedEventArgs e)
 
     listBox.Items.Refresh();
 }
-} //untuk menampilkan data yang telah kita inputkan sebelumnya
+} //untuk menampilkan data yang telah diinputkan sebelumnya
 
 private List<Item> listItem;
 private double total = 0;
@@ -85,4 +85,5 @@ public List<Item> getListItem()
 {
     return listItem;
 }
-// untuk melakukan perhitungan pada data yang telah kita inputkan sebelumnya
+// untuk melakukan perhitungan pada data yang telah diinputkan sebelumnya
+
